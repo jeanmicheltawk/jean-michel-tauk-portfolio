@@ -804,7 +804,7 @@ svg {
 }
 
 .timeline-body.is-open {
-  max-height: 260px;
+  max-height: 1000px;
   opacity: 1;
 }
 
@@ -1364,6 +1364,11 @@ svg {
     grid-column: span 1;
   }
 
+  .projects-grid > .project-card:nth-child(1),
+  .projects-grid > .project-card:nth-child(2) {
+    grid-column: span 1;
+  }
+
   .nav-toggle {
     border: 0;
     width: 2.5rem;
@@ -1420,6 +1425,33 @@ svg {
   .hero-kinetic-title {
     bottom: 12%;
     font-size: clamp(2rem, 12vw, 4rem);
+  }
+}
+
+@media (max-width: 680px) {
+  .timeline-item {
+    margin-left: 1.2rem;
+  }
+
+  .timeline::before,
+  .timeline::after {
+    left: 0.35rem;
+  }
+
+  .timeline-head {
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    row-gap: 0.45rem;
+  }
+
+  .timeline-head time {
+    grid-column: 2;
+    display: block;
+    font-size: 0.82rem;
+  }
+
+  .timeline-body ul {
+    padding: 0 1rem 1rem 2.2rem;
   }
 }
 
