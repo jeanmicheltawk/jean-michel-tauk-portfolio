@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jean-Michel Tauk - Senior Software Engineer building scalable fintech platforms and high-performance applications."
+    />
+    <meta
+      name="keywords"
+      content="Jean-Michel Tauk, Senior Software Engineer, Frontend Architecture, Fintech, Banking Systems, Portfolio"
+    />
+    <meta name="theme-color" content="#0b0b0f" />
+    <meta property="og:title" content="Jean-Michel Tauk | Senior Software Engineer" />
+    <meta
+      property="og:description"
+      content="Building scalable fintech platforms & high-performance applications."
+    />
+    <meta property="og:type" content="website" />
+    <title>Jean-Michel Tauk | Senior Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <div class="noise-overlay" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <canvas class="particle-canvas" id="particleCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" id="siteHeader">
+      <nav class="nav container" aria-label="Primary">
+        <a href="#hero" class="logo">Jean-Michel<span>Tauk</span></a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="nav-link is-active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#stack" class="nav-link">Stack</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#ai" class="nav-link">AI</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-orb hero-orb-a" data-parallax="0.12" data-mouse-parallax="true" data-mouse-depth="22"></div>
+        <div class="hero-orb hero-orb-b" data-parallax="0.2" data-mouse-parallax="true" data-mouse-depth="34"></div>
+        <div class="hero-beam"></div>
+        <div class="hero-rings" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hero-kinetic-title" aria-hidden="true">SENIOR ENGINEER</div>
+
+        <div class="container hero-content">
+          <p class="eyebrow reveal">Senior Software Engineer Portfolio</p>
+          <h1 class="hero-name reveal reveal-delay-1">Jean-Michel Tauk</h1>
+          <h2 class="hero-role reveal reveal-delay-2">Senior Software Engineer</h2>
+          <p class="hero-subtitle reveal reveal-delay-3">
+            Building scalable fintech platforms &amp; high-performance applications
+          </p>
+          <p class="typing-line reveal reveal-delay-4">
+            <span class="typing-prefix">Focus:</span>
+            <span id="typingText" aria-live="polite"></span>
+          </p>
+          <div class="hero-actions reveal reveal-delay-5">
+            <a href="#projects" class="btn btn-primary magnetic">View Projects</a>
+            <a href="./assets/Jean-Michel-Tauk-CV-2026.pdf" class="btn btn-secondary magnetic" download>
+              Download CV
+            </a>
+          </div>
+          <a href="#about" class="scroll-cue reveal reveal-delay-5" aria-label="Scroll to About section">
+            <span>Scroll</span>
+            <i></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="marquee-band" aria-label="Technology highlights">
+        <div class="marquee-track">
+          <span>ANGULAR 18</span>
+          <span>FINTECH SYSTEMS</span>
+          <span>PERFORMANCE OPTIMIZATION</span>
+          <span>MODULAR ARCHITECTURE</span>
+          <span>NGRX & RXJS</span>
+          <span>GRAPHQL</span>
+          <span>CI/CD</span>
+          <span>AI-ASSISTED DELIVERY</span>
+          <span>ANGULAR 18</span>
+          <span>FINTECH SYSTEMS</span>
+          <span>PERFORMANCE OPTIMIZATION</span>
+          <span>MODULAR ARCHITECTURE</span>
+          <span>NGRX & RXJS</span>
+          <span>GRAPHQL</span>
+          <span>CI/CD</span>
+          <span>AI-ASSISTED DELIVERY</span>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-ambient ambient-left" data-parallax="0.08"></div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Architecture-level engineering with product-grade execution</h2>
+          </div>
+          <p class="about-summary reveal reveal-delay-1">
+            Senior Software Engineer with 5+ years of experience specializing in enterprise frontend
+            architecture. Proven ability to lead development of scalable banking and fintech platforms,
+            optimize performance, and deliver high-quality user experiences.
+          </p>
+          <div class="about-cards">
+            <article class="glass-card reveal">
+              <p class="counter" data-target="5">5+</p>
+              <h3>Years Experience</h3>
+              <p>Driving large-scale frontend systems across finance products.</p>
+            </article>
+            <article class="glass-card reveal reveal-delay-1">
+              <p class="counter" data-target="20">20+</p>
+              <h3>Reusable Angular Components</h3>
+              <p>Built 20+ reusable modules for maintainable enterprise delivery.</p>
+            </article>
+            <article class="glass-card reveal reveal-delay-2">
+              <p class="counter" data-target="50">50+</p>
+              <h3>API Integrations</h3>
+              <p>Integrated 50+ APIs across secure banking and fintech platforms.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack">
+        <div class="section-ambient ambient-right" data-parallax="0.12"></div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Tech Stack</p>
+            <h2>Modern technologies for robust and scalable delivery</h2>
+          </div>
+          <div class="stack-grid" id="stackGrid">
+            <article class="stack-card reveal">
+              <header>
+                <span class="stack-icon">◈</span>
+                <h3>Frontend</h3>
+              </header>
+              <ul>
+                <li>Angular (10-18)</li>
+                <li>Vue.js</li>
+                <li>React Native</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+                <li>Bootstrap</li>
+              </ul>
+            </article>
+            <article class="stack-card reveal reveal-delay-1">
+              <header>
+                <span class="stack-icon">◎</span>
+                <h3>State Management</h3>
+              </header>
+              <ul>
+                <li>NgRx</li>
+                <li>RxJS</li>
+              </ul>
+            </article>
+            <article class="stack-card reveal reveal-delay-2">
+              <header>
+                <span class="stack-icon">◍</span>
+                <h3>Backend & APIs</h3>
+              </header>
+              <ul>
+                <li>REST APIs</li>
+                <li>GraphQL</li>
+              </ul>
+            </article>
+            <article class="stack-card reveal">
+              <header>
+                <span class="stack-icon">◇</span>
+                <h3>Tools</h3>
+              </header>
+              <ul>
+                <li>SVN</li>
+                <li>Azure DevOps</li>
+                <li>Swagger</li>
+                <li>CI/CD</li>
+              </ul>
+            </article>
+            <article class="stack-card reveal reveal-delay-1">
+              <header>
+                <span class="stack-icon">✦</span>
+                <h3>AI</h3>
+              </header>
+              <ul>
+                <li>Cursor</li>
+                <li>Automation</li>
+                <li>Rapid Prototyping</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="section-ambient ambient-center" data-parallax="0.09"></div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Engineering journey and leadership impact</h2>
+          </div>
+          <div class="timeline" id="timeline">
+            <article class="timeline-item reveal">
+              <button class="timeline-head" type="button" aria-expanded="true">
+                <span class="timeline-dot"></span>
+                <div>
+                  <h3>eMcREY</h3>
+                  <p>Senior Software Engineer Lead</p>
+                </div>
+                <time>Aug 2024 - Present</time>
+              </button>
+              <div class="timeline-body is-open">
+                <ul>
+                  <li>Delivered Saudi Payments systems (DMS, SDMS, MMS) for Central Bank of KSA.</li>
+                  <li>Built dashboards that improved operational efficiency by 50%.</li>
+                  <li>Reduced manual processing by 60% through dynamic workflows.</li>
+                  <li>Built 20+ reusable components and integrated 50+ APIs.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal reveal-delay-1">
+              <button class="timeline-head" type="button" aria-expanded="true">
+                <span class="timeline-dot"></span>
+                <div>
+                  <h3>eMcREY</h3>
+                  <p>Angular Developer</p>
+                </div>
+                <time>Nov 2023 - Jul 2024</time>
+              </button>
+              <div class="timeline-body is-open">
+                <ul>
+                  <li>Migrated SABB portal from AngularJS to Angular 17.</li>
+                  <li>Improved API response from around 1.5s to around 600ms.</li>
+                  <li>Reduced production issues by 40% with optimization and debugging.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal reveal-delay-2">
+              <button class="timeline-head" type="button" aria-expanded="true">
+                <span class="timeline-dot"></span>
+                <div>
+                  <h3>Tal2k / EndSpace MENA / District91</h3>
+                  <p>Frontend Developer / Team Lead / Full Stack</p>
+                </div>
+                <time>2021 - 2023</time>
+              </button>
+              <div class="timeline-body is-open">
+                <ul>
+                  <li>Built momentAI platform and contributed to CI/CD acceleration.</li>
+                  <li>Led Angular + GraphQL yacht systems with improved team efficiency.</li>
+                  <li>Delivered Vue + Flutter features with RTL/LTR support and integrations.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-ambient ambient-left" data-parallax="0.1"></div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Latest Freelance and enterprise case studies</h2>
+          </div>
+          <div class="projects-grid" id="projectsGrid">
+            <article class="project-card glass-card reveal project-featured">
+              <div class="project-meta-top">
+                <span class="project-category">Automotive Marketplace</span>
+                <span class="project-period">Freelance</span>
+              </div>
+              <h3>Macarze</h3>
+              <p class="project-client">Macarze</p>
+              <p>
+                Car marketplace platform where users can list and sell cars through a guided submission flow.
+              </p>
+              <div class="project-impact">Seller flow + secure admin dashboard</div>
+              <a class="project-site-link" href="https://www.macarze.com/" target="_blank" rel="noopener noreferrer">macarze.com</a>
+              <div class="project-tags">
+                <span>Angular</span><span>TypeScript</span><span>Dashboard</span><span>Email Verification</span>
+              </div>
+            </article>
+            <article class="project-card glass-card reveal reveal-delay-1">
+              <div class="project-meta-top">
+                <span class="project-category">Agency Website</span>
+                <span class="project-period">Freelance</span>
+              </div>
+              <h3>ILLE Model Agency</h3>
+              <p class="project-client">ILLE</p>
+              <p>Model agency website focused on premium presentation and modern brand storytelling.</p>
+              <div class="project-impact">High-end visual identity + responsive UX</div>
+              <a class="project-site-link" href="https://www.ille.co/" target="_blank" rel="noopener noreferrer">ille.co</a>
+              <div class="project-tags"><span>Responsive UI</span><span>Performance</span><span>Brand Experience</span></div>
+            </article>
+            <article class="project-card glass-card reveal reveal-delay-2">
+              <div class="project-meta-top">
+                <span class="project-category">Payments Infrastructure</span>
+                <span class="project-period">2024 - Present</span>
+              </div>
+              <h3>Saudi Payments Systems</h3>
+              <p class="project-client">Saudi Central Bank Programs</p>
+              <p>Secure payment modules (DMS, SDMS, MMS) built for high-volume banking operations.</p>
+              <div class="project-impact">1000+ users | 60% manual effort reduction</div>
+              <div class="project-tags"><span>Angular 16-18</span><span>NgRx</span><span>REST APIs</span></div>
+            </article>
+            <article class="project-card glass-card reveal">
+              <div class="project-meta-top">
+                <span class="project-category">Modernization</span>
+                <span class="project-period">2023 - 2024</span>
+              </div>
+              <h3>SABB Portal Migration</h3>
+              <p class="project-client">SABB Bank</p>
+              <p>Migrated AngularJS to Angular 17 with cleaner architecture and better performance.</p>
+              <div class="project-impact">API response improved from ~1.5s to ~600ms</div>
+              <div class="project-tags"><span>Angular 17</span><span>TypeScript</span><span>JWT Auth</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai" class="section ai">
+        <div class="section-ambient ambient-right" data-parallax="0.1"></div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">AI Experience</p>
+            <h2>Accelerating engineering cycles with AI-assisted delivery</h2>
+          </div>
+          <div class="ai-workflow reveal">
+            <div class="ai-node" style="--i:0">1. Product Brief</div>
+            <div class="ai-arrow">→</div>
+            <div class="ai-node" style="--i:1">2. AI Prototyping (Cursor)</div>
+            <div class="ai-arrow">→</div>
+            <div class="ai-node" style="--i:2">3. Rapid Iteration</div>
+            <div class="ai-arrow">→</div>
+            <div class="ai-node" style="--i:3">4. Production-Ready Architecture</div>
+          </div>
+          <p class="ai-note reveal reveal-delay-1">
+            Leveraged Cursor for code generation, refactoring, and rapid prototyping to accelerate delivery,
+            reduce repetitive tasks, and improve engineering throughput across Angular and full-stack workflows.
+          </p>
+        </div>
+      </section>
+
+      <section id="education" class="section education">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Academic foundation in computer science</h2>
+          </div>
+          <div class="education-grid">
+            <article class="glass-card reveal">
+              <h3>Bachelor Degree in Computer Science</h3>
+              <p>Lebanese Canadian University (LCU) - 2018</p>
+            </article>
+            <article class="glass-card reveal reveal-delay-1">
+              <h3>College Central Jounieh</h3>
+              <p>Completed in 2015</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build the next generation of technologies </h2>
+          </div>
+          <div class="contact-grid">
+            <a class="contact-card reveal" href="mailto:jeanmicheltawk@gmail.com">
+              <span>Email</span>
+              <strong>jeanmicheltawk@gmail.com</strong>
+            </a>
+            <div class="contact-card reveal reveal-delay-1">
+              <span>Phone</span>
+              <strong><a href="tel:+96170866733">+961 70 866 733</a></strong>
+              <strong><a href="tel:+966597944656">+966 5979 44 656</a></strong>
+            </div>
+            <div class="contact-card reveal reveal-delay-2">
+              <span>Location</span>
+              <strong>Riyadh, KSA</strong>
+            </div>
+          </div>
+          <div class="social-row reveal reveal-delay-3">
+            <a
+              class="social-link magnetic"
+              href="https://www.linkedin.com/in/jean-michel-tawk-b468101a7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+              >LinkedIn</a
+            >
+            <a class="btn btn-primary magnetic" href="mailto:jeanmicheltawk@gmail.com">
+              Let's Work Together
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close-modal="true"></div>
+      <article class="modal-panel glass-card">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">×</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalMeta" class="modal-meta"></p>
+        <p id="modalWebsite" class="modal-meta"></p>
+        <p id="modalDescription"></p>
+        <div id="modalTags" class="project-tags"></div>
+        <ul id="modalHighlights"></ul>
+      </article>
+    </div>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jean-Michel Tauk",
+        "jobTitle": "Senior Software Engineer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Riyadh",
+          "addressCountry": "KSA"
+        },
+        "knowsAbout": [
+          "Frontend Architecture",
+          "Fintech Platforms",
+          "Angular",
+          "Performance Optimization",
+          "Modular Architecture"
+        ]
+      }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
