@@ -211,19 +211,4 @@ export const projects = [
       "Accelerated prototyping and release rhythm through automation-assisted workflows.",
     ],
   },
-  {
-    name: "SABB Portal Migration",
-    client: "SABB Bank",
-    period: "2023 - 2024",
-    impact: "~1.5s to ~600ms API response improvement",
-    category: "Modernization",
-    description:
-      "Modernization project migrating legacy AngularJS architecture to Angular 17 with improved scalability, maintainability, and UX consistency.",
-    stack: ["Angular 17", "TypeScript", "JWT Auth", "REST APIs", "Swagger"],
-    details: [
-      "Migrated AngularJS modules to Angular 17 architecture.",
-      "Improved API response time from around 1.5s to around 600ms.",
-      "Reduced production issues through focused optimization.",
-    ],
-  },
 ];

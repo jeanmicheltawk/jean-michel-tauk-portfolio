@@ -309,10 +309,6 @@ svg {
   animation: kineticWave 8s ease-in-out infinite;
 }
 
-.hero-kinetic-break {
-  display: none;
-}
-
 .hero-orb {
   position: absolute;
   border-radius: 999px;
@@ -1428,15 +1424,11 @@ svg {
 
   .hero-kinetic-title {
     bottom: 12%;
-    font-size: clamp(2rem, 12vw, 4rem);
-    white-space: normal;
-    line-height: 1.06;
+    font-size: clamp(1.5rem, 9vw, 2.8rem);
+    white-space: nowrap;
+    line-height: 1;
     width: 100%;
     text-align: center;
-  }
-
-  .hero-kinetic-break {
-    display: block;
   }
 }
 
