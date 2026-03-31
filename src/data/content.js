@@ -20,7 +20,7 @@ export const stackGroups = [
   },
   {
     title: "Tools",
-    items: ["SVN", "Azure DevOps", "Swagger", "CI/CD"],
+    items: ["SVN", "GIT", "Azure DevOps", "Swagger", "CI/CD"],
   },
   {
     title: "AI",
@@ -146,7 +146,7 @@ export const projects = [
     category: "Payments Infrastructure",
     description:
       "Enterprise-scale payment modules for DMS, SDMS, and MMS with secure workflows and high-throughput frontend architecture.",
-    stack: ["Angular 16-18", "NgRx", "TypeScript", "REST APIs", "SVN"],
+    stack: ["Angular 16-18", "NgRx", "TypeScript", "REST APIs", "GIT","SVN"],
     details: [
       "Delivered Saudi Payments systems (DMS, SDMS, MMS) for high-volume operations.",
       "Improved efficiency by 50% and reduced manual processing by 60%.",
