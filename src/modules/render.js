@@ -3,7 +3,7 @@ const stackIcons = {
   "State Management": "◎",
   Backend: "◍",
   Tools: "◇",
-  AI: "✦",
+  "Testing & Delivery": "✦",
 };
 
 export function createStackGrid(groups) {

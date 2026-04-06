@@ -1,5 +1,5 @@
 export function lazyLoadSections() {
-  const heavySections = [...document.querySelectorAll("#experience, #projects, #ai")];
+  const heavySections = [...document.querySelectorAll("#experience, #projects")];
   if (!heavySections.length) return;
 
   const observer = new IntersectionObserver(

@@ -1,30 +1,39 @@
 export const typingPhrases = [
   "Scalable fintech architecture",
-  "Angular enterprise architecture (v10-v18)",
-  "AI-assisted development and prototyping",
+  "Angular enterprise architecture (v17-v18)",
+  "Standalone components, signals, and NgRx state",
   "Secure banking portals for 1000+ users",
 ];
 
 export const stackGroups = [
   {
     title: "Frontend",
-    items: ["Angular (10-18)", "Vue.js", "React Native", "TypeScript", "JavaScript", "SCSS", "Bootstrap"],
+    items: [
+      "Angular (v17-v18)",
+      "Standalone Components",
+      "Signals",
+      "TypeScript",
+      "JavaScript",
+      "SCSS",
+      "TailwindCSS",
+      "Bootstrap",
+    ],
   },
   {
     title: "State Management",
-    items: ["NgRx", "RxJS"],
+    items: ["NgRx", "Signal-based state patterns", "RxJS"],
   },
   {
     title: "Backend",
-    items: ["REST APIs", "GraphQL"],
+    items: ["REST APIs", "Asynchronous Programming", "GraphQL"],
   },
   {
     title: "Tools",
-    items: ["SVN", "GIT", "Azure DevOps", "Swagger", "CI/CD"],
+    items: ["GIT", "SVN", "Azure DevOps", "Webpack", "Gulp", "Grunt", "Swagger", "CI/CD"],
   },
   {
-    title: "AI",
-    items: ["Cursor", "Automation", "Rapid Prototyping"],
+    title: "Testing & Delivery",
+    items: ["Unit Testing", "Jasmine", "Jest", "Cross-browser Testing", "Agile Collaboration", "Code Reviews"],
   },
 ];
 
@@ -38,10 +47,12 @@ export const experiences = [
       "Delivered 3 Saudi Payments systems (DMS, SDMS, MMS) for the Central Bank of KSA.",
       "Developed dashboards and reporting modules that improved operational efficiency by 50%.",
       "Built complex forms and workflows reducing manual processing by 60%.",
-      "Built 20+ reusable Angular components and shared modules.",
+      "Built 20+ reusable Angular standalone components and shared modules.",
+      "Applied Angular signals and NgRx patterns to keep state predictable and maintainable.",
       "Integrated 50+ REST APIs with real-time data handling.",
       "Reduced load times by 30-40% through performance optimization.",
       "Collaborated across backend, QA, and UX, reducing delivery timelines by 25%.",
+      "Participated in code reviews, identified anti-patterns, and refactored modules for better maintainability.",
     ],
   },
   {
@@ -49,10 +60,11 @@ export const experiences = [
     role: "Angular Developer",
     duration: "Nov 2023 - Jul 2024",
     achievements: [
-      "Spearheaded frontend implementation of Saudi Payments systems using Angular 16.",
+      "Spearheaded frontend implementation of Saudi Payments systems using Angular 16-17.",
       "Migrated SABB Bank portal from AngularJS to Angular 17 for better scalability and maintainability.",
       "Integrated APIs and reduced response time from ~1.5s to ~600ms.",
       "Built dynamic UI components (forms, tables, alerts), improving consistency and UX.",
+      "Implemented unit tests with Jasmine and supported QA in resolving regression issues.",
       "Implemented JWT-based authentication and Swagger-aligned API validation.",
       "Reduced production issues by 40% through debugging and optimization.",
     ],
@@ -62,7 +74,7 @@ export const experiences = [
     role: "Frontend Developer",
     duration: "Jun 2023 - Oct 2023",
     achievements: [
-      "Built momentAI, an AI-powered interactive web platform.",
+      "Built an interactive web platform with Angular and modular UI architecture.",
       "Developed responsive Angular applications with modern UI/UX standards.",
       "Integrated frontend with backend APIs for seamless data flow.",
       "Improved stability through testing, debugging, and performance tuning.",
@@ -198,17 +210,17 @@ export const projects = [
     ],
   },
   {
-    name: "momentAI Platform",
+    name: "Interactive Service Platform",
     client: "Tal2k",
     period: "2023",
-    impact: "Faster prototyping + release acceleration",
-    category: "AI Product Platform",
+    impact: "Faster delivery cycles + release acceleration",
+    category: "Digital Product Platform",
     description:
-      "AI-powered product platform with fast iteration cycles and polished user experiences for modern digital workflows.",
-    stack: ["Angular", "JavaScript", "REST APIs", "Automation"],
+      "Angular-based product platform with fast iteration cycles and polished user experiences for modern digital workflows.",
+    stack: ["Angular", "TypeScript", "REST APIs", "Responsive UI"],
     details: [
-      "Built AI-focused interactive interfaces with modern UX patterns.",
-      "Accelerated prototyping and release rhythm through automation-assisted workflows.",
+      "Built interactive interfaces with modern UX patterns and reusable component structure.",
+      "Accelerated release rhythm through performance tuning and collaborative QA cycles.",
     ],
   },
 ];
